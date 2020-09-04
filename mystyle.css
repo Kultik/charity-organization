@@ -1,0 +1,130 @@
+html {
+    line-height: 1.15;
+}
+
+/* BODY */
+body {
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    border-width: 110%;
+}
+
+/* HEADER */
+
+
+.large-image {
+    width:100%;
+    height:auto;
+    left:0;
+}
+.minecraft {
+    width:100%;
+}
+
+.head-bar {
+    background-image: linear-gradient(to right, #89C1F3, #550DBC);
+    position: fixed;
+    left: 0;
+    right:2;
+    margin: 0em;
+    top: 0%;
+    width: 100%;
+    height: 4em;
+    /* DISPLAY */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid purple;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.head-bar li {
+    padding: 1em;
+    /* color:rgb(91, 32, 32); */
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+.titleshot {
+    color: rgb(92, 100, 111);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin: auto;
+}
+
+/* ARTICLE WHO */
+.who {
+    max-width:85%;
+    margin: 40px auto;
+    text-align: center;
+    font-size:1.5em;
+}
+/* .hr-text {
+        line-height: 1em;
+        position:relative;
+        outline:0;
+        border:0;
+        color:darkblue;
+        text-align:center;
+        height:1.5em;
+        opacity:.5;
+} */
+        /* .hr-text::before {
+            content:;
+            background:(to right, transparent, #420730, transparent);
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            height: 3px;
+        } */
+        /* .hr-text::after {
+            content: attr(data-content);
+            position: relative;
+            display: inline-block;
+            color: darkblue;
+            background-color: #fcfcfa;
+        } */
+
+/* INSIDE THE GRID */
+
+.team {
+    width: 95%;
+    height: auto;
+}
+
+.setup {
+    width: 95%;
+    height: auto;
+}
+
+.history {
+    text-align: center;
+}
+
+.sub-history {
+    text-align: justify;
+}
+
+.wrapper {
+    width:95%;
+    display:grid;
+    grid-template-columns:35% 35% 30%;
+    gap: 2em;
+    text-align:center;
+    background-color: #391249;
+    /* How would i get it to wrap around the grid boxes ? */
+}
+
+.wrapper > article {
+    background:rgb(84, 105, 169);
+    padding:15px;
+    border: 5px solid purple;
+}
+.wrapper > article:nth-child(odd) {
+    background:rgb(128, 143, 155);
+}
