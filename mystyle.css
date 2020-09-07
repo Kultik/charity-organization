@@ -9,28 +9,32 @@ body {
     border-width: 110%;
     margin:0;
     padding:0;
+    background-image: linear-gradient(#0B141C,#B1D8FF)
 }
 
 /* HEADER */
 .panel {
-    background-image: linear-gradient(to right, #89C1F3, #550DBC);
+    background-image: linear-gradient(to right, #c3c76b, #0e0816);
     position:fixed;
+    display:flex;
     margin: 0em;
     top:0%;
     width:100%;
-    height:4.5em;
+    height:8%;
 }
 
 .header-list {
     list-style-type: none;
     display:flex;
-    justify-content: center;
+    margin: auto; /* Detrimental to position in the rest */
     gap: 2em;
-    width:100%;
-    align-items: center;
+    width:90%;
+    align-items: flex-start;
     position:fixed;
     color:white;
     font-weight: bold;
+    font-size: 1.2em;
+    top:1em;
 }
 
 /* .head-bar li {
@@ -45,6 +49,12 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.5rem;
     margin-right: auto;
+    align-self: flex-start;
+}
+
+.social-media-pic {
+    width: 3.5em;
+    padding-bottom: 5em;
 }
 
 .large-image {
@@ -92,6 +102,7 @@ body {
     font-size: 40px;
     max-width: 100%;
     position: relative;
+    color: white;
 }
 
 .yolo:before {
@@ -99,7 +110,7 @@ body {
     display: block;
     width: 37%;
     height: 2px;
-    background: #000;
+    background: white;
     position: absolute;
     left: 0;
     top: 50%;
@@ -110,7 +121,7 @@ body {
     display:block;
     width: 37%;
     height: 2px;
-    background: #000;
+    background: white;
     position: absolute;
     right: 0;
     top: 50%;
@@ -166,19 +177,22 @@ body {
 }
 
 .wrapper {
-    width:95%;
+    width:90%;
     display:grid;
-    grid-template-columns:35% 35% 30%;
+    margin: auto;
+    grid-template-columns:30% 35% 30%;
+    justify-content:center;
     gap: 2em;
     text-align:center;
-    background-color: #391249;
+    /* background-color: #391249; */
     /* How would i get it to wrap around the grid boxes ? */
 }
 
 .wrapper > article {
     background:rgb(84, 105, 169);
     padding:15px;
-    border: 5px solid purple;
+    border: 1px solid rgb(24, 4, 24);
+    box-shadow: 5px 10px 15px black;
 }
 .wrapper > article:nth-child(odd) {
     background:rgb(128, 143, 155);
@@ -215,6 +229,12 @@ body {
     font-family: 'Creepster', cursive;
     font-size: 5em;
 }
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*  FOOTER  */
 
