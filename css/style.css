@@ -1,0 +1,192 @@
+html {
+  line-height: 1.15;
+}
+
+/* BODY */
+body {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  border-width: 110%;
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0B141C), to(#B1D8FF));
+  background-image: linear-gradient(#0B141C, #B1D8FF);
+}
+
+/* HEADER */
+.jumbotron {
+  background-image: url("/assets/images/minecraft-wpp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+}
+
+#carouselContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sliders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 2rem;
+  width: 60%;
+  text-align: justify;
+}
+
+.yolo {
+  font-family: sans-serif;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 40px;
+  max-width: 100%;
+  position: relative;
+  color: white;
+}
+
+.yolo:before {
+  content: "";
+  display: block;
+  width: 37%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.yolo:after {
+  content: "";
+  display: block;
+  width: 37%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+/* INSIDE THE GRID */
+.team {
+  width: 95%;
+  height: auto;
+}
+
+.setup {
+  width: 95%;
+  height: auto;
+}
+
+.history {
+  text-align: center;
+}
+
+.sub-history {
+  text-align: justify;
+  font-size: 1em;
+}
+
+.wrapper {
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  -ms-grid-columns: 30% 35% 30%;
+      grid-template-columns: 30% 35% 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+  text-align: center;
+  /* background-color: #391249; */
+  /* How would i get it to wrap around the grid boxes ? */
+}
+
+.wrapper > article {
+  background: #5469a9;
+  padding: 15px;
+  border: 1px solid #180418;
+  -webkit-box-shadow: 5px 10px 15px black;
+          box-shadow: 5px 10px 15px black;
+}
+
+.wrapper > article:nth-child(odd) {
+  background: #808f9b;
+}
+
+/* WHY WE EXIST */
+.reasons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.second-list {
+  list-style-type: none;
+  line-height: 300%;
+  font-size: 1em;
+}
+
+/* SCROOGE */
+.moneymoney {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrooge {
+  width: 15em;
+  margin: 30px;
+}
+
+.bioshock {
+  font-family: 'Creepster', cursive;
+  font-size: 5em;
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*  FOOTER  */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,98 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Charity Organization</title>
-        <link rel="stylesheet"
-        type="text/css"
-        href="mystyle.css">
-        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <header>
-                <nav>
-                    <div class="panel">
-                            <ul class="header-list">
-                                <!-- <li class="controller-logo"><img src="controller.png" alt="Controller Logo"/></li> -->
-                                <li class="titleshot">Charity-Gaming</li>
-                                <li>Donate</li>
-                                <li>Stream</li>
-                                <li>Stories</li>
-                                <li>Impact</li>
-                                <li>Store</li>
-                                <li>Contact Us</li>
-                                <li><img class="social-media-pic" src="social-media.jpg" alt="Social Media" /></li>
-                            </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Organization</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+            <a class="navbar-brand" href="#">Charity-Gaming</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Donate <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stream</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Vacancies</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Atlanta</a>
+                            <a class="dropdown-item" href="#">Tortuga</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <main>
+
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-3">GG Mantra</h1>
+            <p class="lead">At the core of gaming</p>
+            <p>More info</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Press that button!</a>
+            </p>
+        </div>
+
+        <!-- <hr class="hr-text" data-content="Who we are"> -->
+        <div class="who-one">
+            <h2 class="yolo">Who we are</h2>
+        </div>
+
+
+        <section class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <h2>The team</h2>
+                    <img class="team" src="/assets/images/team.jpg" alt="Our Team" />
+                    <h3>The Vindicators</h3>
+                </div>
+                <div class="col-3 align-middle">
+                    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="sliders">
+                                    <p>It was a complete loss. The Cathay-Raht had stolen or destroyed almost every item
+                                        of
+                                        value in the caravan in just a few minutes' time. Decumus Scotti's wagonload of
+                                        wood
+                                        he had hoped to trade with the Bosmer had been set on fire and then toppled off
+                                        the
+                                        bluff. His clothing and contracts were tattered and ground into the mud of dirt
+                                        mixed with spilt wine. All the pilgrims, merchants, and adventurers in the group
+                                        moaned and wept as they gathered the remnants of their belongings by the rising
+                                        sun...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="sliders">
+                                    <p>The Good Daedra are Boethiah, Azura, and Mephala. The hunger is a powerful and
+                                        violent lesser Daedra associated with Boethiah, Father of Plots -- a sinuous,
+                                        long-limbed, long-tailed creature with a beast-skulled head, noted for its
+                                        paralyzing touch and its ability to disintegrate weapons and armor. The winged
+                                        twilight is a messenger of Azura, Goddess of Dusk and Dawn. Winged Twilight
+                                        resemble
+                                        the feral harpies of the West, though the feminine aspects of the winged
+                                        twilights...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                </nav>
-        </header>
-        <br>
-        <main>
-            <section class="large-image">
-                <img class="minecraft" src="minecraft-wpp.jpg"/>
-            </section>
-            <section class="who">
-                <!-- <hr class="hr-text" data-content="Who we are"> -->
-                <div class="who-one"><h2 class="yolo">Who we are</h2></div>
-            </section>
-            <article class="wrapper">
-                <article>
-                    <h2>The Team</h2>
-                    <figure>
-                        <img class="team" src="team.jpg" alt="Our Team"/>
-                        <figcaption>The Vindicators</figcaption>
-                    </figure>
-                </article>
-                <article >
-                    <h2 class="history">History</h2>
-                    <p class="sub-history">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, dolores ex numquam, ea beatae a ipsa, maiores dolorum nostrum odio provident assumenda nulla. Aliquam omnis esse, a mollitia fugiat modi fuga. Assumenda fuga ad distinctio cupiditate soluta dignissimos quaerat harum et nulla eos eius minima mollitia, non maiores, modi facere.</p>
-                </article>
-                <article>
+                </div>
+                <div class="col-3">
                     <h2>Our Setup</h2>
-                    <img class="setup" src="setup.jpg" alt="Our Setup">
-                </article>
-            </article>
-            <section class="who">
-                <!-- <hr class="hr-text" data-content="Why we exist"> -->
-                <div class="who-one"><h2 class="yolo">Why we exist</h2></div>
-            </section>
-            <article class="reasons">
-                <ul class="second-list">
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                </ul>
-                <ul class="second-list">
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                </ul>
-            </article>
-            <section class="support-us">
-                <div class="who-one"><h2 class="yolo">Support Us</h2></div> 
-            </section>
-            <article class="moneymoney">
-                <a href="https://media1.tenor.com/images/e31ac0918c235d2618bdfea962e33167/tenor.gif" target="_blank">
-                    <img class="scrooge" src="scrooge.gif" alt="Scrooge McDuck"/>
-                </a>
-                <br>
-                <q class="bioshock"><a href="https://bioshock.fandom.com/wiki/Would_You_Kindly">Would you kindly?</a></q>
-            </article>
-            <section class="support-us">
-                <div class="who-one"><h2 class="yolo">Next Up</h2></div> 
-            </section>
-            <article class="video">
-                <iframe class="video-youtube" width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY" />
-                </iframe>
-            </article>
-        </main>
-        <footer>
-            <h3>Support these other organisations:</h3>
+                    <img class="setup" src="/assets/images/setup.jpg" alt="Our Setup">
+                </div>
+            </div>
+        </section>
+
+        <article>
+
+        </article>
+        <article>
+
+        </article>
+        </article>
+        <section class="who">
+            <!-- <hr class="hr-text" data-content="Why we exist"> -->
+            <div class="who-one">
+                <h2 class="yolo">Why we exist</h2>
+            </div>
+        </section>
+        <article class="reasons">
             <ul class="second-list">
-                <li class="logo-one">
-                    <a href="https://gamersforgiving.org/" target=_blank>Gamers for Giving</a></li>
-                <li><a href="https://www.extra-life.org/" target=_blank>Extra Life</a></li>
-                <li><a href="https://www.specialeffect.org.uk/" target=_blank>Special Effect</a></li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
             </ul>
-        </footer>
-    </body>
+            <ul class="second-list">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+        </article>
+        <section class="support-us">
+            <div class="who-one">
+                <h2 class="yolo">Support Us</h2>
+            </div>
+        </section>
+        <article class="moneymoney">
+            <a href="https://media1.tenor.com/images/e31ac0918c235d2618bdfea962e33167/tenor.gif" target="_blank">
+                <img class="scrooge" src="scrooge.gif" alt="Scrooge McDuck" />
+            </a>
+            <br>
+            <q class="bioshock"><a href="https://bioshock.fandom.com/wiki/Would_You_Kindly">Would you kindly?</a></q>
+        </article>
+        <section class="support-us">
+            <div class="who-one">
+                <h2 class="yolo">Next Up</h2>
+            </div>
+        </section>
+        <article class="video">
+            <iframe class="video-youtube" width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY" />
+            </iframe>
+        </article>
+    </main>
+    <footer>
+        <h3>Support these other organisations:</h3>
+        <ul class="second-list">
+            <li class="logo-one">
+                <a href="https://gamersforgiving.org/" target=_blank>Gamers for Giving</a></li>
+            <li><a href="https://www.extra-life.org/" target=_blank>Extra Life</a></li>
+            <li><a href="https://www.specialeffect.org.uk/" target=_blank>Special Effect</a></li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
